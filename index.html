@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project 1</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+<!--    echo "# mytailwindpeo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mmdirie/mytailwindpeo.git
+git push -u origin main -->
+
+    <!-- Navbar -->
+    <nav class="bg-indigo-700 border-b-2 border-indigo-500 px-2 sm:px-6 md:px-6 lg:px-8">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="h-20 flex items-center justify-between">
+
+                <!-- Logo -->
+                <a class="flex items-center" href="/index.html">
+                    <img class="h-16 w-auto rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX9fZzRj7BuQAtuf6RSuqIjWEaai2Vl7sFq2Y6tKq5hA&s"
+                        alt="Tailwind CSS Logo">
+
+                    <span class="font-bold text-white ml-2">
+                        TAILWINDCSS
+                    </span>
+                </a>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex gap-6">
+
+                    <a class="text-white font-semibold hover:text-indigo-200" href="/index.html">
+                        Home
+                    </a>
+
+                    <a class="text-white font-semibold hover:text-indigo-200" href="/index.html">
+                        About
+                    </a>
+
+                    <a class="text-white font-semibold hover:text-indigo-200" href="/index.html">
+                        Contact
+                    </a>
+
+                    <a class="text-white font-semibold hover:text-indigo-200" href="/index.html">
+                        Courses
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="bg-indigo-700 py-20 mb-4">
+
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="text-center">
+
+                <h1 class="text-white font-semibold text-4xl">
+                    Become A Web Developer
+                </h1>
+
+                <p class="my-4 text-xl text-white">
+                    Learn how to create responsive user interfaces, develop
+                    server-side applications, work with databases, build APIs,
+                    authenticate users, and connect all parts of a web application together.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Students and Instructors -->
+    <section class="py-4">
+
+        <div class="container mx-auto px-4">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+                <!-- Learners -->
+                <div class="bg-gray-100 p-6 rounded shadow-md">
+
+                    <h1 class="text-2xl font-bold">
+                        For Learners
+                    </h1>
+
+                    <p class="mt-2 mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores facilis neque unde labore vero alias, debitis
+                        laboriosam voluptatem ea corporis beatae ut sed dolorem magni!
+                        Nemo voluptatibus unde laudantium ex.
+                    </p>
+
+                    <a class="inline-block bg-black text-white text-center rounded-lg px-4 py-2 hover:bg-gray-800"
+                        href="/courses.html">
+                        Buy The Course
+                    </a>
+
+                </div>
+
+
+                <!-- Instructors -->
+                <div class="bg-indigo-100 p-6 rounded shadow-md">
+
+                    <h1 class="text-2xl font-bold">
+                        For Instructors
+                    </h1>
+
+                    <p class="mt-2 mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores facilis neque unde labore vero alias, debitis
+                        laboriosam voluptatem ea corporis beatae ut sed dolorem magni!
+                        Nemo voluptatibus unde laudantium ex.
+                    </p>
+
+                    <a class="inline-block bg-indigo-700 text-white text-center rounded-lg px-4 py-2 hover:bg-indigo-800"
+                        href="/courses.html">
+                        Add Course
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Recent Courses -->
+    <section class="bg-blue-50 px-4 py-10">
+
+        <div class="container mx-auto">
+
+            <h1 class="text-2xl font-bold text-center text-indigo-500 mb-10">
+                Recent Courses
+            </h1>
+
+            <!-- Courses Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+
+                <!-- Course 1 -->
+                <div class="bg-white rounded-xl shadow-md relative p-6">
+
+                    <!-- Course Title and Category -->
+                    <div class="mb-4">
+
+                        <span class="text-gray-600">
+                            Front-End
+                        </span>
+
+                        <h3 class="text-xl font-bold">
+                            HTML & CSS
+                        </h3>
+
+                    </div>
+
+                    <!-- Course Description -->
+                    <div class="mb-4 text-gray-600">
+                        Do you want to learn Front-End web development quickly?
+                    </div>
+
+                    <!-- Course Duration -->
+                    <div class="text-indigo-500">
+
+                        <h3>
+                            Duration: 3 Months
+                        </h3>
+
+                        <h3>
+                            Price: $50
+                        </h3>
+
+                    </div>
+
+                    <div class="border border-gray-100 mt-6">
+                    </div>
+
+                </div>
+
+
+                <!-- Course 2 -->
+                <div class="bg-white rounded-xl shadow-md relative p-6">
+
+                    <!-- Course Title and Category -->
+                    <div class="mb-4">
+
+                        <span class="text-gray-600">
+                            Front-End
+                        </span>
+
+                        <h3 class="text-xl font-bold">
+                            JavaScript
+                        </h3>
+
+                    </div>
+
+                    <!-- Course Description -->
+                    <div class="mb-4 text-gray-600">
+                        Learn JavaScript and create interactive web applications.
+                    </div>
+
+                    <!-- Course Duration -->
+                    <div class="text-indigo-500">
+
+                        <h3>
+                            Duration: 3 Months
+                        </h3>
+
+                        <h3>
+                            Price: $50
+                        </h3>
+
+                    </div>
+
+                    <div class="border border-gray-100 mt-6">
+                    </div>
+
+                </div>
+
+
+                <!-- Course 3 -->
+                <div class="bg-white rounded-xl shadow-md relative p-6">
+
+                    <!-- Course Title and Category -->
+                    <div class="mb-4">
+
+                        <span class="text-gray-600">
+                            Back-End
+                        </span>
+
+                        <h3 class="text-xl font-bold">
+                            Node.js
+                        </h3>
+
+                    </div>
+
+                    <!-- Course Description -->
+                    <div class="mb-4 text-gray-600">
+                        Learn how to build powerful server-side applications with Node.js.
+                    </div>
+
+                    <!-- Course Duration -->
+                    <div class="text-indigo-500">
+
+                        <h3>
+                            Duration: 3 Months
+                        </h3>
+
+                        <h3>
+                            Price: $50
+                        </h3>
+
+                    </div>
+
+                    <div class="border border-gray-100 mt-6">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- View All Courses -->
+    <section class="px-4 py-6">
+
+        <a class="block bg-black text-center text-white text-lg py-4 px-6 rounded-xl hover:bg-gray-800"
+            href="courses.html">
+            View All Courses
+        </a>
+
+    </section>
+
+
+    <!-- Popular Courses -->
+    <section class="bg-white">
+
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+
+            <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+                Popular Courses
+            </h2>
+
+
+            <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+
+                <!-- HTML & CSS -->
+                <div class="group relative">
+
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800" alt="HTML and CSS Course"
+                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+
+                    <div class="mt-4 flex justify-between">
+
+                        <div>
+
+                            <h3 class="text-sm font-medium text-gray-700">
+
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+
+                                    HTML & CSS
+                                </a>
+
+                            </h3>
+
+                            <p class="mt-1 text-sm text-gray-500">
+                                Beginner • 20 Lessons
+                            </p>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-gray-900">
+                            $55
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="group relative">
+
+                    <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800"
+                        alt="JavaScript Course"
+                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+
+                    <div class="mt-4 flex justify-between">
+
+                        <div>
+
+                            <h3 class="text-sm font-medium text-gray-700">
+
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+
+                                    JavaScript
+                                </a>
+
+                            </h3>
+
+                            <p class="mt-1 text-sm text-gray-500">
+                                Intermediate • 30 Lessons
+                            </p>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-gray-900">
+                            $55
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- React -->
+                <div class="group relative">
+
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800" alt="React JS Course"
+                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+
+                    <div class="mt-4 flex justify-between">
+
+                        <div>
+
+                            <h3 class="text-sm font-medium text-gray-700">
+
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+
+                                    React.js
+                                </a>
+
+                            </h3>
+
+                            <p class="mt-1 text-sm text-gray-500">
+                                Advanced • 35 Lessons
+                            </p>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-gray-900">
+                            $55
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Full Stack -->
+                <div class="group relative">
+
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+                        alt="Full Stack Web Development Course"
+                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+
+                    <div class="mt-4 flex justify-between">
+
+                        <div>
+
+                            <h3 class="text-sm font-medium text-gray-700">
+
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+
+                                    Full-Stack Development
+                                </a>
+
+                            </h3>
+
+                            <p class="mt-1 text-sm text-gray-500">
+                                Advanced • 60 Lessons
+                            </p>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-gray-900">
+                            $55
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Sign In Section -->
+    <section class="bg-gray-900 py-12">
+
+        <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+
+            <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+
+                <h2 class="mt-6 text-center text-2xl font-bold tracking-tight text-white">
+                    Sign in to your account
+                </h2>
+
+            </div>
+
+
+            <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+
+                <form action="#" method="POST" class="space-y-6">
+
+                    <!-- Email -->
+                    <div>
+
+                        <label for="email" class="block text-sm font-medium text-gray-100">
+                            Email address
+                        </label>
+
+                        <div class="mt-2">
+
+                            <input id="email" type="email" name="email" required autocomplete="email"
+                                class="block w-full rounded-md bg-white/5 px-3 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div>
+
+                        <div class="flex items-center justify-between">
+
+                            <label for="password" class="block text-sm font-medium text-gray-100">
+                                Password
+                            </label>
+
+                            <div class="text-sm">
+
+                                <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300">
+                                    Forgot password?
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="mt-2">
+
+                            <input id="password" type="password" name="password" required
+                                autocomplete="current-password"
+                                class="block w-full rounded-md bg-white/5 px-3 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Sign In Button -->
+                    <div>
+
+                        <button type="submit"
+                            class="flex w-full justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                            Sign in
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <p class="mt-10 text-center text-sm text-gray-400">
+
+                    Not a member?
+
+                    <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300">
+                        Start for free
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
+```
